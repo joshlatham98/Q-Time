@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		270A2B06220DAE6900E0DD54 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 270A2B05220DAE6800E0DD54 /* MainViewController.swift */; };
 		6D48F0CD1B72972F7FB50BDC /* Pods_FirebasePracticeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E544FDACDF0D469301CB2F /* Pods_FirebasePracticeTests.framework */; };
 		7F0F9D4DFE7C8EEFC132A0B1 /* Pods_FirebasePracticeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BF5A35910FDCAA674E934D1 /* Pods_FirebasePracticeUITests.framework */; };
 		CE08F8D522087366003EE6CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE08F8D422087366003EE6CB /* GoogleService-Info.plist */; };
@@ -42,6 +43,7 @@
 
 /* Begin PBXFileReference section */
 		0AECD33766DD04AA6CD86911 /* Pods-FirebasePractice.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebasePractice.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebasePractice/Pods-FirebasePractice.debug.xcconfig"; sourceTree = "<group>"; };
+		270A2B05220DAE6800E0DD54 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		31E544FDACDF0D469301CB2F /* Pods_FirebasePracticeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebasePracticeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3D807A941228FC2938D3D5BB /* Pods-FirebasePracticeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebasePracticeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebasePracticeUITests/Pods-FirebasePracticeUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		6BF5A35910FDCAA674E934D1 /* Pods_FirebasePracticeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebasePracticeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -150,6 +152,7 @@
 				CE08F8D82209DECA003EE6CB /* LoginViewController.swift */,
 				CEA7A3F62201C28200BF0978 /* AppContainerViewController.swift */,
 				CEA7A3F82201C28200BF0978 /* Main.storyboard */,
+				270A2B05220DAE6800E0DD54 /* MainViewController.swift */,
 				CEA7A3FE2201C28400BF0978 /* Assets.xcassets */,
 				CEA7A4002201C28400BF0978 /* LaunchScreen.storyboard */,
 				CEA7A4032201C28400BF0978 /* Info.plist */,
@@ -413,6 +416,7 @@
 				CEA7A3FD2201C28200BF0978 /* FirebasePractice.xcdatamodeld in Sources */,
 				CEA7A3F72201C28200BF0978 /* AppContainerViewController.swift in Sources */,
 				CEA7A3F52201C28200BF0978 /* AppDelegate.swift in Sources */,
+				270A2B06220DAE6900E0DD54 /* MainViewController.swift in Sources */,
 				CE08F8D92209DECA003EE6CB /* LoginViewController.swift in Sources */,
 				CE08F8D72209A7ED003EE6CB /* AppManager.swift in Sources */,
 			);
