@@ -13,6 +13,7 @@
 		CE08F8D522087366003EE6CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = CE08F8D422087366003EE6CB /* GoogleService-Info.plist */; };
 		CE08F8D72209A7ED003EE6CB /* AppManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08F8D62209A7ED003EE6CB /* AppManager.swift */; };
 		CE08F8D92209DECA003EE6CB /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE08F8D82209DECA003EE6CB /* LoginViewController.swift */; };
+		CE558A24221DA0070002131C /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CE558A23221DA0070002131C /* SignupViewController.swift */; };
 		CEA7A3F52201C28200BF0978 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7A3F42201C28200BF0978 /* AppDelegate.swift */; };
 		CEA7A3F72201C28200BF0978 /* AppContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7A3F62201C28200BF0978 /* AppContainerViewController.swift */; };
 		CEA7A3FA2201C28200BF0978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CEA7A3F82201C28200BF0978 /* Main.storyboard */; };
@@ -54,6 +55,7 @@
 		CE08F8D422087366003EE6CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		CE08F8D62209A7ED003EE6CB /* AppManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppManager.swift; sourceTree = "<group>"; };
 		CE08F8D82209DECA003EE6CB /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		CE558A23221DA0070002131C /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 		CEA7A3F12201C28200BF0978 /* FirebasePractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FirebasePractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA7A3F42201C28200BF0978 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CEA7A3F62201C28200BF0978 /* AppContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppContainerViewController.swift; sourceTree = "<group>"; };
@@ -152,6 +154,7 @@
 				CE08F8D82209DECA003EE6CB /* LoginViewController.swift */,
 				CEA7A3F62201C28200BF0978 /* AppContainerViewController.swift */,
 				CEA7A3F82201C28200BF0978 /* Main.storyboard */,
+				CE558A23221DA0070002131C /* SignupViewController.swift */,
 				270A2B05220DAE6800E0DD54 /* MainViewController.swift */,
 				CEA7A3FE2201C28400BF0978 /* Assets.xcassets */,
 				CEA7A4002201C28400BF0978 /* LaunchScreen.storyboard */,
@@ -414,6 +417,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CEA7A3FD2201C28200BF0978 /* FirebasePractice.xcdatamodeld in Sources */,
+				CE558A24221DA0070002131C /* SignupViewController.swift in Sources */,
 				CEA7A3F72201C28200BF0978 /* AppContainerViewController.swift in Sources */,
 				CEA7A3F52201C28200BF0978 /* AppDelegate.swift in Sources */,
 				270A2B06220DAE6900E0DD54 /* MainViewController.swift in Sources */,
