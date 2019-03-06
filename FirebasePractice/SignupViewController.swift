@@ -13,6 +13,7 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var nextBtn: UIButton!
     
     let picker = UIImagePickerController()
+    var userStorage: FIRS
     
     
     
@@ -20,6 +21,8 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
         super.viewDidLoad()
         
         picker.delegate = self
+        
+        let storage = userStorage.storage
 
     }
     
@@ -52,7 +55,9 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
                     print(error.localizedDescription)
                 }
                 
-                if let user = user 
+                if let user = user {
+                    
+                }
             })
             
         }else{
