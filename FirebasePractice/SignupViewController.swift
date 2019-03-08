@@ -13,7 +13,7 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var nextBtn: UIButton!
     
     let picker = UIImagePickerController()
-    var userStorage: FIRS
+    var userStorage: DatabaseReference!
     
     
     
@@ -22,7 +22,7 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         picker.delegate = self
         
-        let storage = userStorage.storage
+        let storage = userStorage.database
 
     }
     
