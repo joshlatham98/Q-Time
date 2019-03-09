@@ -24,6 +24,7 @@
 		CEA7A4182201C28500BF0978 /* FirebasePracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEA7A4172201C28500BF0978 /* FirebasePracticeUITests.swift */; };
 		CEDAC4472232CC0800A6CA58 /* LocationLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC4462232CC0800A6CA58 /* LocationLoader.swift */; };
 		CEDAC4492232D64300A6CA58 /* ParkAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC4482232D64300A6CA58 /* ParkAnnotation.swift */; };
+		CEDAC44B2233E46F00A6CA58 /* GeoPoint=Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = CEDAC44A2233E46F00A6CA58 /* GeoPoint=Extension.swift */; };
 		ECCF74792DC3C66B29CFC224 /* Pods_FirebasePractice.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC8121AA4083B154A2E99D66 /* Pods_FirebasePractice.framework */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +75,7 @@
 		CEA7A4192201C28500BF0978 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEDAC4462232CC0800A6CA58 /* LocationLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationLoader.swift; sourceTree = "<group>"; };
 		CEDAC4482232D64300A6CA58 /* ParkAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ParkAnnotation.swift; sourceTree = "<group>"; };
+		CEDAC44A2233E46F00A6CA58 /* GeoPoint=Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GeoPoint=Extension.swift"; sourceTree = "<group>"; };
 		E39A6B24C32202B12530A929 /* Pods-FirebasePracticeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebasePracticeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebasePracticeUITests/Pods-FirebasePracticeUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -160,6 +162,7 @@
 				CEA7A3F82201C28200BF0978 /* Main.storyboard */,
 				CE558A23221DA0070002131C /* SignupViewController.swift */,
 				270A2B05220DAE6800E0DD54 /* MainViewController.swift */,
+				CEDAC44A2233E46F00A6CA58 /* GeoPoint=Extension.swift */,
 				CEDAC4462232CC0800A6CA58 /* LocationLoader.swift */,
 				CEDAC4482232D64300A6CA58 /* ParkAnnotation.swift */,
 				CEA7A3FE2201C28400BF0978 /* Assets.xcassets */,
@@ -426,6 +429,7 @@
 				CE558A24221DA0070002131C /* SignupViewController.swift in Sources */,
 				CEDAC4492232D64300A6CA58 /* ParkAnnotation.swift in Sources */,
 				CEA7A3F72201C28200BF0978 /* AppContainerViewController.swift in Sources */,
+				CEDAC44B2233E46F00A6CA58 /* GeoPoint=Extension.swift in Sources */,
 				CEA7A3F52201C28200BF0978 /* AppDelegate.swift in Sources */,
 				270A2B06220DAE6900E0DD54 /* MainViewController.swift in Sources */,
 				CE08F8D92209DECA003EE6CB /* LoginViewController.swift in Sources */,

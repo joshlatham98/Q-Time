@@ -1,8 +1,9 @@
 import Firebase
 
+
 class LocationLoader {
     
-    func loadLocations(for park: String, completion: @escaping ([ParkAnnotation]) -> Void)
+    func loadLocations(for park: String, completion: @escaping ([ParkAnnotation]) -> Void) {
     var locations = [ParkAnnotation]()
     
     let ref = Firestore.firestore().collection("parks").document(park).collection("locations")
@@ -12,6 +13,7 @@ class LocationLoader {
     let annotation = ParkAnnotation(data: document)
     locations.append(annotation)
     }
+        completion(locations)
     }
     
     
@@ -21,4 +23,5 @@ class LocationLoader {
     
     
     
+}
 }
