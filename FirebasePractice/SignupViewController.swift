@@ -13,7 +13,7 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
     @IBOutlet weak var nextBtn: UIButton!
     
     let picker = UIImagePickerController()
-    var userStorage: DatabaseReference!
+    //var userStorage: DatabaseReference!
     
     
     
@@ -22,7 +22,7 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
         
         picker.delegate = self
         
-        let storage = userStorage.database
+       // _ = userStorage.database
 
     }
     
@@ -55,7 +55,7 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
                     print(error.localizedDescription)
                 }
                 
-                if let user = user {
+                if user != nil {
                     
                 }
             })
@@ -70,3 +70,4 @@ class SignupViewController: UIViewController, UIImagePickerControllerDelegate, U
     
     
 }
+
